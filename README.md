@@ -96,21 +96,21 @@ Step-by-step instructions to set up the project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+git clone https://github.com/jayso10/European-Football-Analysis.git
 
 # Navigate to the project folder
-cd YOUR_REPO
+cd European-Football-Analysis
 
 ```
 
 ## Usage
 
 1.	Open the Tableau dashboard using the provided Tableau Public link
-	2.	Use the interactive filters to explore:
+2.	Use the interactive filters to explore:
 	•	Different seasons
 	•	Leagues
 	•	Teams
-	3.	Review the key performance metrics including:
+3.	Review the key performance metrics including:
 	•	Total matches played
 	•	Total goals scored
 	•	Average goals per match
