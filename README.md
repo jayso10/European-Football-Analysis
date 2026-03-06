@@ -1,11 +1,11 @@
 # Project Title: European Football Performance Analysis & Tableau Dashboard
 
-This project explores performance trends across major European football leagues using match-level data. The analysis transforms raw relational data into meaningful insights about scoring patterns, team dominance, and league competitiveness.
+A data analysis project exploring performance trends across European football leagues.  
+The project analyzes match results, goals, and team performance across multiple seasons to uncover scoring trends, league competitiveness, and long-term team dominance.
 
-Using **SQL for data transformation** and **Tableau for visualization**, the project analyzes nearly **26,000 matches across 8 seasons** to uncover trends in goals, wins, and league performance.  
+The dataset was processed using **SQL** and visualized through an **interactive Tableau dashboard** to present key insights in a clear and user-friendly format.
 
-🔗 **Live Dashboard:**  
-https://public.tableau.com/views/FootballViz_17503919933510/Football?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link 
+[Live Dashboard](https://public.tableau.com/views/FootballViz_17503919933510/Football?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
 
@@ -23,101 +23,83 @@ https://public.tableau.com/views/FootballViz_17503919933510/Football?:language=e
 
 ---
 
+## Overview
 
-# Overview
+- **Motivation:**  
+Football produces large volumes of statistical data, making it ideal for practicing data analysis and visualization. I chose this dataset to explore how match results and scoring trends vary across leagues, seasons, and teams.
 
-### Motivation
-Football generates large amounts of performance data, making it an ideal dataset for practicing **data analysis, SQL modeling, and business intelligence dashboards**. I chose this dataset to explore how data can reveal trends in team performance, scoring behavior, and league competitiveness.
+- **Objective:**  
+The goal of this project was to analyze European football data to answer key questions such as:
+  - Which leagues produce the most goals?
+  - How have scoring patterns changed across seasons?
+  - Which teams dominate their leagues over time?
+  - What is the average number of goals scored per match?
 
-### Objective
-The goal of this project was to analyze European football data and answer questions such as:
-
-- Which leagues produce the most goals?
-- How have scoring patterns changed across seasons?
-- Which teams dominate their leagues over time?
-- What is the average number of goals per match?
-
-### Learning Outcomes
-
-Through this project I developed skills in:
-
-- Designing relational database analysis workflows
-- Writing SQL queries for joins, views, and aggregations
-- Cleaning and validating large datasets
-- Building interactive dashboards in Tableau
-- Translating raw data into business-style KPIs and insights
+- **Learning Outcomes:**  
+  - Developed SQL skills for data cleaning, joins, and view creation  
+  - Learned how to structure relational datasets for analysis  
+  - Built interactive dashboards using Tableau  
+  - Practiced transforming raw sports data into meaningful business-style insights  
 
 ---
 
-# Dataset
+## Dataset
 
-### Source
-European Soccer Database  
-https://www.kaggle.com/datasets/hugomathien/soccer
+Provide details about the dataset used:
 
-### Dataset Overview
+- **Source of the dataset:**  
+  https://www.kaggle.com/datasets/hugomathien/soccer
 
-The dataset contains match-level data across several European leagues.
+- **Size of the dataset:**  
+  - 25,979 matches  
+  - 70,287 goals  
+  - 11 leagues  
+  - 296 teams  
+  - 8 seasons (2008–2016)
 
-Key statistics:
+- **Key features/columns used:**  
+  - Country  
+  - League name  
+  - Team names  
+  - Match results (home and away goals)  
+  - Match dates  
+  - Season information
 
-- **25,979 matches**
-- **70,287 goals**
-- **11 leagues**
-- **296 teams**
-- **8 seasons (2008–2016)**
-
-### Database Structure
-
-The project used four main relational tables:
-
-- **countries** – country information  
-- **leagues** – league data  
-- **teams** – team details  
-- **matches** – match results and statistics  
-
-### Data Processing
-
-Data preparation was performed using **MySQL**, including:
-
-- Joining tables to create a unified analytical dataset
-- Removing duplicate records using window functions
-- Validating foreign key relationships
-- Handling null values and anomalies
-- Creating a reusable SQL view called **`joined_matches`**
-
-This consolidated dataset was then used for all Tableau analysis.
+- **Preprocessing / Cleaning Steps:**  
+  - Joined multiple relational tables (countries, leagues, teams, matches)  
+  - Removed duplicate records using SQL window functions  
+  - Validated foreign key relationships  
+  - Checked for null values and inconsistencies  
+  - Created a reusable SQL view (`joined_matches`) for analysis
 
 ---
 
 <h2>Technologies Used</h2>
 
 <ul>
-  <li><strong>Languages & Libraries:</strong> Python, Pandas, NumPy, SQL, Matplotlib, Seaborn</li>
-  <li><strong>Tools:</strong> Jupyter Notebook, VS Code, Git, GitHub</li>
-  <li><strong>Data Visualization:</strong> Power BI / Tableau (if applicable)</li>
+  <li><strong>Languages & Libraries:</strong> SQL (MySQL)</li>
+  <li><strong>Tools:</strong> Excel, VS Code, Git, GitHub</li>
+  <li><strong>Data Visualization:</strong> Tableau Public</li>
 </ul>
 
 <p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
-  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white" alt="Matplotlib">
-  <img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logo=seaborn&logoColor=white" alt="Seaborn">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau">
+  <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" alt="Excel">
 </p>
 
 ---
 
-# Installation
+## Installation
 
-To explore the project locally:
+Step-by-step instructions to set up the project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/jayso10/European-Football-Analysis.git
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
 
-# Navigate into the project directory
-cd European-Football-Analysis
+# Navigate to the project folder
+cd YOUR_REPO
 
 ```
 
