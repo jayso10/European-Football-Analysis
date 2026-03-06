@@ -90,22 +90,21 @@ This consolidated dataset was then used for all Tableau analysis.
 
 ---
 
-# Technologies Used
+<h2>Technologies Used</h2>
 
-### Languages & Databases
-- SQL (MySQL)
+<ul>
+  <li><strong>Languages & Libraries:</strong> Python, Pandas, NumPy, SQL, Matplotlib, Seaborn</li>
+  <li><strong>Tools:</strong> Jupyter Notebook, VS Code, Git, GitHub</li>
+  <li><strong>Data Visualization:</strong> Power BI / Tableau (if applicable)</li>
+</ul>
 
-### Data Tools
-- Excel
-- Tableau Public
-
-### Development Tools
-- Git
-- GitHub
-- VS Code
-
-### Data Visualization
-- Tableau
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
+  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white" alt="Matplotlib">
+  <img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logo=seaborn&logoColor=white" alt="Seaborn">
+</p>
 
 ---
 
@@ -115,10 +114,10 @@ To explore the project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+git clone https://github.com/jayso10/European-Football-Analysis.git
 
 # Navigate into the project directory
-cd YOUR_REPO
+cd European-Football-Analysis
 
 ```
 
