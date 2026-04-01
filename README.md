@@ -5,7 +5,9 @@ The project analyzes match results, goals, and team performance across multiple 
 
 The dataset was processed using **SQL** and visualized through an **interactive Tableau dashboard** to present key insights in a clear and user-friendly format.
 
-[Live Dashboard](https://public.tableau.com/views/FootballViz_17503919933510/Football?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+## 🔗 Live Dashboard
+
+👉 [View the Dashboard on Tableau Public](https://public.tableau.com/views/FootballViz_17503919933510/Football?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
 
