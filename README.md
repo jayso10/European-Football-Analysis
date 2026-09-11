@@ -118,9 +118,7 @@ cd European-Football-Analysis
 	•	Average goals per match
 	•	Team win counts
 
-The dashboard allows users to explore football performance trends across multiple dimensions.
-
-![Visualization Example](assets/images/screenshot.png)  
+The dashboard allows users to explore football performance trends across multiple dimensions. 
 
 ---
 
